@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-11 h-11 bg-cream-200 rounded-xl flex items-center justify-center">
-                <span className="text-brand-700 font-bold text-xl font-heading">T</span>
+              <div className="w-11 h-11 bg-white p-1 rounded-xl flex items-center justify-center overflow-hidden">
+                <img src="/thurstechlogo.png" alt="ThursTech Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="text-white font-heading font-bold text-xl">

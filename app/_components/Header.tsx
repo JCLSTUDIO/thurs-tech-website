@@ -46,7 +46,7 @@ const Header = () => {
             </a>
             <a href="mailto:thurstechnigitd@gmail.com" className="flex items-center space-x-1 hover:text-brand-400 transition-colors">
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              <span>thurstechnigitd@gmail.com</span>
+              <span>thurstechnigltd@gmail.com</span>
             </a>
           </div>
           <span className="font-medium">RC: 1577031</span>
@@ -55,14 +55,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 z-10 group">
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 ${
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 overflow-hidden ${
               isScrolled 
-                ? "bg-brand-500 shadow-md" 
-                : "bg-cream-200"
+                ? "bg-brand-500 shadow-md p-1" 
+                : "bg-white p-1"
             }`}>
-              <span className={`font-bold text-xl font-heading transition-colors ${
-                isScrolled ? "text-white" : "text-brand-700"
-              }`}>T</span>
+              <img src="/thurstechlogo.png" alt="ThursTech Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h1 className={`font-heading font-bold text-xl tracking-tight transition-colors ${

@@ -13,7 +13,7 @@ export default function AboutPage() {
 
   const clients = [
     "Dangote Group", "Nestlé Nigeria", "Guaranty Trust Bank", "Shell Nigeria",
-    "Unilever", "Nigerian Breweries", "Julius Berger", "Lafarge Africa"
+    "Olabisi Onabanjo Teaching Hospital", "Nigerian Breweries", "Julius Berger", "Lafarge Africa"
   ];
 
   const states = [
@@ -57,7 +57,7 @@ export default function AboutPage() {
 
               <div className="mt-8 p-4 bg-cream-50 rounded-xl border border-cream-300/50">
                 <p className="text-sm text-slate-600">
-                  <span className="font-bold text-brand-700">Head Office:</span> NPO 50 Kajola Street, Ajaka Makun, Sagamu, Ogun State
+                  <span className="font-bold text-brand-700">Head Office:</span> NO 50 Kajola Street, Ajaka Makun, Sagamu, Ogun State
                 </p>
                 <p className="text-sm text-slate-500 mt-1">
                   <span className="font-bold text-brand-700">RC Number:</span> 1577031

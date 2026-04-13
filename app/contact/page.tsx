@@ -35,7 +35,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-brand-800 text-lg">Head Office</h3>
-                    <p className="text-slate-600">NPO 50 Kajola Street,<br />Ajaka Makun, Sagamu,<br />Ogun State, Nigeria</p>
+                    <p className="text-slate-600">NO 50 Kajola Street,<br />Ajaka Makun, Sagamu,<br />Ogun State, Nigeria</p>
                   </div>
                 </div>
 
