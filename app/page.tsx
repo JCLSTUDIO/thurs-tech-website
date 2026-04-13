@@ -59,7 +59,7 @@ export default function Home() {
         <div className="absolute top-32 right-20 w-72 h-72 bg-cream-200/5 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-40 left-10 w-96 h-96 bg-brand-400/10 rounded-full blur-3xl" />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-56 sm:pb-48 md:py-20">
           <div className="max-w-3xl animate-slide-up">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-cream-200/10 border border-cream-200/30 text-cream-200 text-sm font-semibold mb-6 backdrop-blur-sm">
               <span className="w-2 h-2 bg-cream-200 rounded-full mr-2 animate-pulse" />
@@ -84,7 +84,7 @@ export default function Home() {
               </Link>
             </div>
             
-            <div className="mt-12 flex flex-wrap items-center gap-6 text-blue-200">
+            <div className="mt-8 md:mt-12 flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-y-4 gap-x-6 text-blue-200">
               <div className="flex items-center space-x-2">
                 <svg className="w-5 h-5 text-cream-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 <span className="text-sm">Licensed & Insured</span>
@@ -102,9 +102,9 @@ export default function Home() {
         </div>
         
         {/* Stats Bar */}
-        <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md border-t border-white/10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md border-t border-white/10 z-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-cream-200 font-heading">15+</div>
                 <div className="text-blue-200 text-sm mt-1">Years Experience</div>
