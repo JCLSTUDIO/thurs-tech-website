@@ -5,7 +5,7 @@ export default function Home() {
   const features = [
     {
       icon: "🏆",
-      title: "15+ Years Experience",
+      title: "23+ Years Experience",
       description: "Trusted expertise in HVAC solutions since 2011"
     },
     {
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="max-w-3xl animate-slide-up">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-cream-200/10 border border-cream-200/30 text-cream-200 text-sm font-semibold mb-6 backdrop-blur-sm">
               <span className="w-2 h-2 bg-cream-200 rounded-full mr-2 animate-pulse" />
-              15+ Years of Excellence · RC: 1577031
+              23+ Years of Excellence · RC: 1577031
             </div>
             
             <h1 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6 leading-tight">
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-cream-200 font-heading">15+</div>
+                <div className="text-3xl md:text-4xl font-bold text-cream-200 font-heading">23+</div>
                 <div className="text-blue-200 text-sm mt-1">Years Experience</div>
               </div>
               <div>

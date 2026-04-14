@@ -13,7 +13,7 @@ const rajdhani = Rajdhani({
 
 export const metadata: Metadata = {
   title: "ThursTech Nigeria Ltd | Premium Air Conditioning Solutions",
-  description: "15+ years of excellence in AC sales, installation & maintenance. RC 1577031. Serving Nigeria & international clients with residential and industrial HVAC solutions. Call +2348034060091.",
+  description: "23+ years of excellence in AC sales, installation & maintenance. RC 1577031. Serving Nigeria & international clients with residential and industrial HVAC solutions. Call +2348034060091.",
   keywords: "air conditioning, HVAC, AC installation, Nigeria, ThursTech, Sagamu, Ogun State",
 };
 

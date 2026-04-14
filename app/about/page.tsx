@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export default function AboutPage() {
   const timeline = [
-    { year: "2011", title: "Founded", description: "ThursTech established in Sagamu, Ogun State, Nigeria" },
-    { year: "2014", title: "Expansion", description: "Extended services to 12 Nigerian states" },
-    { year: "2017", title: "Industrial Division", description: "Launched specialized industrial HVAC solutions" },
+    { year: "2003", title: "Founded", description: "ThursTech established in Sagamu, Ogun State, Nigeria" },
+    { year: "2006", title: "Expansion", description: "Extended services to 12 Nigerian states" },
+    { year: "2010", title: "Industrial Division", description: "Launched specialized industrial HVAC solutions" },
     { year: "2019", title: "International", description: "Began operations in Ghana and Kenya" },
     { year: "2022", title: "Innovation Award", description: "Recognized as leading HVAC provider in West Africa" },
-    { year: "2026", title: "15 Years", description: "Celebrating 15+ years of excellence" },
+    { year: "2026", title: "23 Years", description: "Celebrating 23+ years of excellence" },
   ];
 
   const clients = [
@@ -35,7 +35,7 @@ export default function AboutPage() {
             About <span className="text-cream-200">ThursTech</span>
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl">
-            15+ years of delivering premium air conditioning solutions across Nigeria and international markets.
+            23+ years of delivering premium air conditioning solutions across Nigeria and international markets.
           </p>
         </div>
       </section>

@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-3 text-cream-300">
-              Leading provider of premium air conditioning solutions for residential and industrial clients. 15+ years of excellence in Nigeria and beyond.
+              Leading provider of premium air conditioning solutions for residential and industrial clients. 23+ years of excellence in Nigeria and beyond.
             </p>
             <p className="text-xs text-cream-400 mb-6">
               <span className="font-semibold text-cream-200">RC: 1577031</span>
